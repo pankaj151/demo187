@@ -5,11 +5,11 @@ wget https://repo.skype.com/latest/skypeforlinux-64.deb  https://dl.google.com/l
 
 sudo dpkg -i *.deb; sudo apt install -f -y; sudo apt update -y; sudo apt upgrade -y;
 
-#timesheet
+#timesheet "check, if this is initial commit 3.""
 wget https://bit.ly/3rraewM 
 mv 3rraewM Oodles_timesheet.Appimage; sudo chmod u+x Oodles_timesheet.Appimage
 rm -rf *.deb
 
 
 
-#wget https://download.anydesk.com/linux/anydesk_6.1.1-1_amd64.deb ; sudo dpkg -i *.deb; sudo apt install -f -y;
+wget https://download.anydesk.com/linux/anydesk_6.1.1-1_amd64.deb ; sudo dpkg -i *.deb; sudo apt install -f -y;

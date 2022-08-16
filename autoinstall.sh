@@ -5,7 +5,7 @@ wget https://repo.skype.com/latest/skypeforlinux-64.deb  https://dl.google.com/l
 
 sudo dpkg -i *.deb; sudo apt install -f -y; sudo apt update -y; sudo apt upgrade -y;
 
-#timesheet "check, if this is initial commit 3.""
+#timesheet "check, if this is initial commit 3.
 wget https://bit.ly/3rraewM 
 mv 3rraewM Oodles_timesheet.Appimage; sudo chmod u+x Oodles_timesheet.Appimage
 rm -rf *.deb
